@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+
   },
   "keywords": [],
   "author": "",
